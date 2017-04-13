@@ -1,0 +1,771 @@
+/* line 5, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* line 10, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.text-muted {
+  color: #777777; }
+
+/* line 14, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.text-primary {
+  color: #fed136; }
+
+/* line 18, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+p {
+  font-size: 14px;
+  line-height: 1.75; }
+
+/* line 23, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+p.large {
+  font-size: 16px; }
+
+/* line 27, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none; }
+
+/* line 35, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+a {
+  color: #fed136; }
+
+/* line 39, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #fec503; }
+
+/* line 46, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+/* line 51, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.img-centered {
+  margin: 0 auto; }
+
+/* line 55, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.bg-light-gray {
+  background-color: #eeeeee; }
+
+/* line 59, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.bg-darkest-gray {
+  background-color: #222222; }
+
+/* line 65, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.btn-primary {
+  color: white;
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; }
+  /* line 10, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_mixins.scss */
+  .btn-primary:focus, .btn-primary.focus {
+    color: white;
+    background-color: #fec503;
+    border-color: #b48b01; }
+  /* line 16, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_mixins.scss */
+  .btn-primary:hover {
+    color: white;
+    background-color: #fec503;
+    border-color: #f6bf01; }
+  /* line 21, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_mixins.scss */
+  .btn-primary:active, .btn-primary.active,
+  .open > .btn-primary.dropdown-toggle {
+    color: white;
+    background-color: #fec503;
+    border-color: #f6bf01; }
+    /* line 28, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_mixins.scss */
+    .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus,
+    .open > .btn-primary.dropdown-toggle:hover,
+    .open > .btn-primary.dropdown-toggle:focus,
+    .open > .btn-primary.dropdown-toggle.focus {
+      color: white;
+      background-color: #dcab01;
+      border-color: #b48b01; }
+  /* line 36, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_mixins.scss */
+  .btn-primary:active, .btn-primary.active,
+  .open > .btn-primary.dropdown-toggle {
+    background-image: none; }
+  /* line 44, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_mixins.scss */
+  .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus,
+  fieldset[disabled] .btn-primary:hover,
+  fieldset[disabled] .btn-primary:focus,
+  fieldset[disabled] .btn-primary.focus {
+    background-color: #fed136;
+    border-color: #fed136; }
+  /* line 52, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_mixins.scss */
+  .btn-primary .badge {
+    color: #fed136;
+    background-color: white; }
+
+/* line 71, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.btn-xl {
+  color: white;
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px; }
+  /* line 10, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_mixins.scss */
+  .btn-xl:focus, .btn-xl.focus {
+    color: white;
+    background-color: #fec503;
+    border-color: #b48b01; }
+  /* line 16, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_mixins.scss */
+  .btn-xl:hover {
+    color: white;
+    background-color: #fec503;
+    border-color: #f6bf01; }
+  /* line 21, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_mixins.scss */
+  .btn-xl:active, .btn-xl.active,
+  .open > .btn-xl.dropdown-toggle {
+    color: white;
+    background-color: #fec503;
+    border-color: #f6bf01; }
+    /* line 28, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_mixins.scss */
+    .btn-xl:active:hover, .btn-xl:active:focus, .btn-xl:active.focus, .btn-xl.active:hover, .btn-xl.active:focus, .btn-xl.active.focus,
+    .open > .btn-xl.dropdown-toggle:hover,
+    .open > .btn-xl.dropdown-toggle:focus,
+    .open > .btn-xl.dropdown-toggle.focus {
+      color: white;
+      background-color: #dcab01;
+      border-color: #b48b01; }
+  /* line 36, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_mixins.scss */
+  .btn-xl:active, .btn-xl.active,
+  .open > .btn-xl.dropdown-toggle {
+    background-image: none; }
+  /* line 44, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_mixins.scss */
+  .btn-xl.disabled:hover, .btn-xl.disabled:focus, .btn-xl.disabled.focus, .btn-xl[disabled]:hover, .btn-xl[disabled]:focus, .btn-xl[disabled].focus,
+  fieldset[disabled] .btn-xl:hover,
+  fieldset[disabled] .btn-xl:focus,
+  fieldset[disabled] .btn-xl.focus {
+    background-color: #fed136;
+    border-color: #fed136; }
+  /* line 52, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_mixins.scss */
+  .btn-xl .badge {
+    color: #fed136;
+    background-color: white; }
+
+/* line 82, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent; }
+  /* line 85, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .navbar-custom .navbar-brand {
+    color: #fed136;
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; }
+    /* line 88, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand.active {
+      color: #fec503; }
+  /* line 95, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .navbar-custom .navbar-collapse {
+    border-color: rgba(255, 255, 255, 0.98); }
+  /* line 98, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .navbar-custom .navbar-toggle {
+    background-color: #fed136;
+    border-color: #fed136;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px; }
+    /* line 104, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
+      background-color: #fed136; }
+  /* line 111, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .navbar-custom .nav li a {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white; }
+    /* line 116, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
+      color: #fed136;
+      outline: none; }
+  /* line 124, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 0;
+    color: white;
+    background-color: #fed136; }
+  /* line 129, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .navbar-custom .navbar-nav > .active > a:hover,
+  .navbar-custom .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #fec503; }
+
+@media (min-width: 768px) {
+  /* line 137, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none; }
+    /* line 144, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .navbar-custom .navbar-brand {
+      font-size: 2em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s; }
+    /* line 150, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .navbar-custom .navbar-nav > .active > a {
+      border-radius: 3px; } }
+
+@media (min-width: 768px) {
+  /* line 159, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 10px 0; }
+    /* line 162, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .navbar-custom.affix .navbar-brand {
+      font-size: 1.5em; } }
+
+/* line 168, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+header {
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white; }
+  /* line 176, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px; }
+    /* line 179, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    header .intro-text .intro-lead-in {
+      font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-style: italic;
+      font-size: 22px;
+      line-height: 22px;
+      margin-bottom: 25px; }
+    /* line 186, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    header .intro-text .intro-heading {
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 50px;
+      margin-bottom: 25px; }
+
+@media (min-width: 768px) {
+  /* line 198, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px; }
+    /* line 201, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    header .intro-text .intro-lead-in {
+      font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-style: italic;
+      font-size: 40px;
+      line-height: 40px;
+      margin-bottom: 25px; }
+    /* line 208, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    header .intro-text .intro-heading {
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 75px;
+      line-height: 75px;
+      margin-bottom: 50px; } }
+
+/* line 221, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+section {
+  padding: 100px 0; }
+  /* line 223, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px; }
+  /* line 228, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  section h3.section-subheading {
+    font-size: 16px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 75px; }
+
+@media (min-width: 768px) {
+  /* line 239, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  section {
+    padding: 150px 0; } }
+
+/* line 246, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.service-heading {
+  margin: 15px 0;
+  text-transform: none; }
+
+/* line 254, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0; }
+  /* line 257, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  #portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto; }
+    /* line 262, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+      background: rgba(254, 209, 54, 0.1);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s; }
+      /* line 271, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+      #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+        opacity: 1; }
+      /* line 274, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+      #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        font-size: 20px;
+        text-align: center;
+        top: 50%;
+        margin-top: -12px;
+        color: white; }
+        /* line 283, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+          margin-top: -12px; }
+        /* line 286, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+          margin: 0; }
+  /* line 293, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  #portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    padding: 25px; }
+    /* line 299, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    #portfolio .portfolio-item .portfolio-caption h4 {
+      text-transform: none;
+      margin: 0; }
+    /* line 303, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    #portfolio .portfolio-item .portfolio-caption p {
+      font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-style: italic;
+      font-size: 16px;
+      margin: 0; }
+
+/* line 311, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+#portfolio * {
+  z-index: 2; }
+
+@media (min-width: 767px) {
+  /* line 318, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  #portfolio .portfolio-item {
+    margin: 0 0 30px; } }
+
+/* line 326, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.timeline {
+  list-style: none;
+  padding: 0;
+  position: relative; }
+  /* line 330, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 2px;
+    background-color: #f1f1f1;
+    left: 40px;
+    margin-left: -1.5px; }
+  /* line 340, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .timeline > li {
+    margin-bottom: 50px;
+    position: relative;
+    min-height: 50px; }
+    /* line 344, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline > li:before, .timeline > li:after {
+      content: " ";
+      display: table; }
+    /* line 349, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline > li:after {
+      clear: both; }
+    /* line 352, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline > li .timeline-panel {
+      width: 100%;
+      float: right;
+      padding: 0 20px 0 100px;
+      position: relative;
+      text-align: left; }
+      /* line 358, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+      .timeline > li .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto; }
+      /* line 364, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+      .timeline > li .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto; }
+    /* line 371, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline > li .timeline-image {
+      left: 0;
+      margin-left: 0;
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      z-index: 100;
+      background-color: #fed136;
+      color: white;
+      border-radius: 100%;
+      border: 7px solid #f1f1f1;
+      text-align: center; }
+      /* line 383, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+      .timeline > li .timeline-image h4 {
+        font-size: 10px;
+        margin-top: 12px;
+        line-height: 14px; }
+    /* line 389, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline > li.timeline-inverted > .timeline-panel {
+      float: right;
+      text-align: left;
+      padding: 0 20px 0 100px; }
+      /* line 393, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+      .timeline > li.timeline-inverted > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto; }
+      /* line 399, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+      .timeline > li.timeline-inverted > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto; }
+    /* line 406, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline > li:last-child {
+      margin-bottom: 0; }
+  /* line 411, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit; }
+    /* line 414, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline .timeline-heading h4.subheading {
+      text-transform: none; }
+  /* line 420, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .timeline .timeline-body > p,
+  .timeline .timeline-body > ul {
+    margin-bottom: 0; }
+
+@media (min-width: 768px) {
+  /* line 429, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .timeline:before {
+    left: 50%; }
+  /* line 432, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .timeline > li {
+    margin-bottom: 100px;
+    min-height: 100px; }
+    /* line 435, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline > li .timeline-panel {
+      width: 41%;
+      float: left;
+      padding: 0 20px 20px 30px;
+      text-align: right; }
+    /* line 441, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline > li .timeline-image {
+      width: 100px;
+      height: 100px;
+      left: 50%;
+      margin-left: -50px; }
+      /* line 446, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+      .timeline > li .timeline-image h4 {
+        font-size: 13px;
+        margin-top: 16px;
+        line-height: 18px; }
+    /* line 452, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline > li.timeline-inverted > .timeline-panel {
+      float: right;
+      text-align: left;
+      padding: 0 30px 20px 20px; } }
+
+@media (min-width: 992px) {
+  /* line 463, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .timeline > li {
+    min-height: 150px; }
+    /* line 465, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline > li .timeline-panel {
+      padding: 0 20px 20px; }
+    /* line 468, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline > li .timeline-image {
+      width: 150px;
+      height: 150px;
+      margin-left: -75px; }
+      /* line 472, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+      .timeline > li .timeline-image h4 {
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 26px; }
+    /* line 478, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline > li.timeline-inverted > .timeline-panel {
+      padding: 0 20px 20px; } }
+
+@media (min-width: 1200px) {
+  /* line 487, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .timeline > li {
+    min-height: 170px; }
+    /* line 489, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline > li .timeline-panel {
+      padding: 0 20px 20px 100px; }
+    /* line 492, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline > li .timeline-image {
+      width: 170px;
+      height: 170px;
+      margin-left: -85px; }
+      /* line 496, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+      .timeline > li .timeline-image h4 {
+        margin-top: 40px; }
+    /* line 500, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .timeline > li.timeline-inverted > .timeline-panel {
+      padding: 0 100px 20px 20px; } }
+
+/* line 509, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.team-member {
+  text-align: center;
+  margin-bottom: 50px; }
+  /* line 512, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .team-member img {
+    margin: 0 auto;
+    border: 7px solid white; }
+  /* line 516, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none; }
+  /* line 521, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .team-member p {
+    margin-top: 0; }
+
+/* line 529, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+aside.clients img {
+  margin: 50px auto; }
+
+/* line 536, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+section#contact {
+  background-color: #222222;
+  background-image: url("../img/map-image.png");
+  background-position: center;
+  background-repeat: no-repeat; }
+  /* line 541, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  section#contact .section-heading {
+    color: white; }
+  /* line 544, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  section#contact .form-group {
+    margin-bottom: 25px; }
+    /* line 546, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    section#contact .form-group input,
+    section#contact .form-group textarea {
+      padding: 20px; }
+    /* line 550, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    section#contact .form-group input.form-control {
+      height: auto; }
+    /* line 553, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    section#contact .form-group textarea.form-control {
+      height: 236px; }
+  /* line 557, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none; }
+  /* line 561, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  section#contact ::-webkit-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee; }
+  /* line 566, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  section#contact :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee; }
+  /* line 571, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  section#contact ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee; }
+  /* line 576, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  section#contact :-ms-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee; }
+  /* line 581, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  section#contact .text-danger {
+    color: #e74c3c; }
+
+/* line 588, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+footer {
+  padding: 25px 0;
+  text-align: center; }
+  /* line 591, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  footer span.copyright {
+    line-height: 40px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none; }
+  /* line 596, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  footer ul.quicklinks {
+    margin-bottom: 0;
+    line-height: 40px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none; }
+
+/* line 606, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+ul.social-buttons {
+  margin-bottom: 0; }
+  /* line 609, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  ul.social-buttons li a {
+    display: block;
+    background-color: #222222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; }
+    /* line 622, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+      background-color: #fed136; }
+
+/* line 631, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none; }
+
+/* line 639, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.portfolio-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto; }
+
+/* line 644, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center; }
+  /* line 653, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em; }
+  /* line 657, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .portfolio-modal .modal-content p {
+    margin-bottom: 30px; }
+  /* line 660, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px; }
+  /* line 666, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .portfolio-modal .modal-content ul.list-inline {
+    margin-bottom: 30px;
+    margin-top: 0; }
+  /* line 670, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .portfolio-modal .modal-content img {
+    margin-bottom: 30px; }
+
+/* line 674, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer; }
+  /* line 682, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .portfolio-modal .close-modal:hover {
+    opacity: 0.3; }
+  /* line 685, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+  .portfolio-modal .close-modal .lr {
+    height: 75px;
+    width: 1px;
+    margin-left: 35px;
+    background-color: #222222;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Safari and Chrome */
+    z-index: 1051; }
+    /* line 696, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+    .portfolio-modal .close-modal .lr .rl {
+      height: 75px;
+      width: 1px;
+      background-color: #222222;
+      transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      /* IE 9 */
+      -webkit-transform: rotate(90deg);
+      /* Safari and Chrome */
+      z-index: 1052; }
+
+/* line 709, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none; }
+
+/* line 717, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+::-moz-selection {
+  text-shadow: none;
+  background: #fed136; }
+
+/* line 722, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+::selection {
+  text-shadow: none;
+  background: #fed136; }
+
+/* line 727, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+img::selection {
+  background: transparent; }
+
+/* line 731, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+img::-moz-selection {
+  background: transparent; }
+
+/* line 735, /Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/agency-final-2/css/_agency.scss */
+body {
+  webkit-tap-highlight-color: #fed136; }
+
+/*# sourceMappingURL=custom.css.map */
